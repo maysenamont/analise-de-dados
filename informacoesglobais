@@ -1,4 +1,4 @@
-const url = ' '
+const url = 'https://github.com/maysenamont/analise-de-dados'
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
