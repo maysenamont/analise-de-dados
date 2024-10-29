@@ -1,7 +1,7 @@
 import { getCSS, criarGrafico, incluirTexto } from "./common.js"
 
 async function redesFavoritasMundo() {
-    const url = ''
+    const url = 'https://github.com/maysenamont/analise-de-dados'
     const res = await fetch(url)
     const dados = await res.json()
     const redes = Object.keys(dados)
